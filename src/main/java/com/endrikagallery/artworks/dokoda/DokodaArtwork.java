@@ -4,7 +4,8 @@ import com.endrikagallery.AbstractArtwork;
 import com.endrikagallery.model.ArtistInfos;
 import com.endrikagallery.model.ArtworkInfos;
 
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Graphics;
 
 public class DokodaArtwork extends AbstractArtwork {
 
@@ -15,6 +16,6 @@ public class DokodaArtwork extends AbstractArtwork {
     @Override
     public void expresses(Graphics graphics) {
         graphics.setColor(Color.RED);
-        graphics.fillRoundRect(200, 200, 400, 150 , 7, 7);
+        graphics.fillRoundRect(200, 200, 400, 150, 7, 7);
     }
 }

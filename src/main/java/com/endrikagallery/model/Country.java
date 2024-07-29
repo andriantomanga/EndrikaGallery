@@ -1,5 +1,7 @@
 package com.endrikagallery.model;
 
+import com.endrikagallery.utils.StringUtil;
+
 import java.util.Arrays;
 import java.util.Map;
 import java.util.function.Function;
@@ -200,7 +202,7 @@ public enum Country {
     YEMEN("Yemen", "YE"),
     ZAMBIA("Zambia", "ZM"),
     ZIMBABWE("Zimbabwe", "ZW"),
-    UNKNOWN("Unknown", "");
+    UNKNOWN("Unknown", StringUtil.EMPTY);
 
     private static final Map<String, Country> CODE_TO_COUNTRY_MAP
             = Arrays.stream(values()).collect(Collectors.toMap(Country::getCode, Function.identity()));

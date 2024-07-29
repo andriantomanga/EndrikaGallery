@@ -5,6 +5,7 @@ import com.endrikagallery.Artwork;
 import com.endrikagallery.model.ArtistInfos;
 import com.endrikagallery.model.ArtworkInfos;
 import com.endrikagallery.model.Country;
+import com.endrikagallery.utils.StringUtil;
 import org.w3c.dom.Element;
 
 public final class ArtworkFactory {
@@ -53,7 +54,7 @@ public final class ArtworkFactory {
         if (nodeList.getLength() > 0) {
             return nodeList.item(0).getTextContent();
         }
-        return "";
+        return StringUtil.EMPTY;
     }
 
     private static String getTextContent(Element element, String tagName) {
