@@ -1,8 +1,8 @@
 <endrika_gallery>
     <artworks>
         <artwork>
-            <name>Dago tsipika</name>
-            <description>Simple outlines of Madagascar</description>
+            <name>Ilay Nosy Mena</name>
+            <description>Basic red island</description>
             <artworkClass>com.endrikagallery.artworks.dago.DagoArtwork</artworkClass>
             <artist>
                 <name>Nabil Andriantomanga</name>
@@ -38,7 +38,7 @@
 
         <artwork>
             <name>Fragments Cubistes</name>
-            <description>Œuvre dynamique avec formes géométriques colorées inspirées du cubisme.</description>
+            <description>Œuvre dynamique avec formes inspirées du cubisme.</description>
             <artworkClass>com.endrikagallery.artworks.andriantomanga.CubismArtwork</artworkClass>
             <artist>
                 <name>Nabil Andriantomanga</name>

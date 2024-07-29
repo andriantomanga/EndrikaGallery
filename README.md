@@ -68,6 +68,22 @@ Here is a comprehensive example:
     </artworks>
 </endrika_gallery>
 ```
+#### Comprehensive list of ```artwork``` elements :
+
+| Element                          | Description                                    | Required |
+|----------------------------------|------------------------------------------------|----------|
+| `<artwork>`                      | Element representing the artwork               | true     |
+| `<name>`                         | The name of the artwork                        | true     |
+| `<description>`                  | A brief description of the artwork             | true     |
+| `<artworkClass>`                 | The fully qualified class name for the artwork | true     |
+| `<artist>`                       | Element containing artist details              | true     |
+| `<artist> <name>`                | The name of the artist                         | true     |
+| `<artist> <countryCode>`         | The country code of the artist                 | true     |
+| `<artist> <githubId>`            | The GitHub ID of the artist                    | true     |
+| `<artist> <email>`               | The email address of the artist                | false    |
+| `<artist> <phone>`               | The phone number of the artist                 | false    |
+| `<artist> <website>`             | The website of the artist                      | false    |
+
 
 ### 4. Submit a Pull Request
 
@@ -78,3 +94,9 @@ your contribution.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 📝
 
+## 📸 Screenshots
+### Example 1 :
+<img src="screenshots/screen1.PNG" alt="Exemple 1" width="600" style="display: block; margin-bottom: 20px;"/>
+
+### Example 2 :
+<img src="screenshots/screen2.PNG" alt="Exemple 2" width="600" style="display: block; margin-bottom: 20px;"/>
