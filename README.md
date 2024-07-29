@@ -41,7 +41,32 @@ public class RadoSampleArtwork extends AbstractArtwork {
 }
 ```
 
-### 2. Submit a Pull Request
+### 3. Manifest Update
+Add a new artwork element to the src/main/resources/artworks.xml file.
+Here is a comprehensive example:
+
+```xml
+<endrika_gallery>
+    <artworks>
+        <!-- More artworks here ... -->
+        <artwork>
+            <name>Spiral Dance</name>
+            <description>Une sensation de mouvement fluide et artistique ...</description>
+            <artworkClass>com.endrikagallery.artworks.andriantomanga.SpiralArtwork</artworkClass>
+            <artist>
+                <name>Nabil Andriantomanga</name>
+                <countryCode>MG</countryCode>
+                <githubId>andriantomanga</githubId>
+                <email>nabil.andriantomanga@gmail.com</email>
+                <phone>0605793334</phone>
+                <website>http://www.andriantomanga.com</website>
+            </artist>
+        </artwork>
+    </artworks>
+</endrika_gallery>
+```
+
+### 4. Submit a Pull Request
 
 After adding your artwork, commit your changes and open a pull request to the main repository. We’ll review and merge
 your contribution.

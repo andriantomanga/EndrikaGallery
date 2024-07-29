@@ -10,6 +10,7 @@
                 <githubId>andriantomanga</githubId>
             </artist>
         </artwork>
+<!-- More artworks here ... -->
 
         <artwork>
             <name>Spiral Dance</name>
@@ -19,6 +20,9 @@
                 <name>Nabil Andriantomanga</name>
                 <countryCode>MG</countryCode>
                 <githubId>andriantomanga</githubId>
+                <email>nabil.andriantomanga@gmail.com</email>
+                <phone>0605793334</phone>
+                <website>http://www.andriantomanga.com</website>
             </artist>
         </artwork>
 
