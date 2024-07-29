@@ -1,0 +1,44 @@
+<endrika_gallery>
+    <artworks>
+        <artwork>
+            <name>Manga Kely</name>
+            <description>A vibrant manga-style painting.</description>
+            <artworkClass>com.endrikagallery.artworks.xrado.XRadoDagoArtwork</artworkClass>
+            <artist>
+                <name>Rado</name>
+                <countryCode>FR</countryCode>
+                <githubId>rado</githubId>
+                <email>rado@gmail.com</email>
+                <phone>0605793334</phone>
+                <website>http://www.rado.com</website>
+            </artist>
+        </artwork>
+        <artwork>
+            <name>Dokoda</name>
+            <description>Dokoda painting.</description>
+            <artworkClass>com.endrikagallery.artworks.dokoda.DokodaArtwork</artworkClass>
+            <artist>
+                <name>Dokoda</name>
+                <countryCode>ZW</countryCode>
+                <githubId>dokoda</githubId>
+                <email>dokoda@gmail.com</email>
+                <phone>0605793334</phone>
+                <website>http://www.dokoda.com</website>
+            </artist>
+        </artwork>
+        <artwork>
+            <name>Manga Be</name>
+            <description>A vibrant manga-style painting.</description>
+            <artworkClass>com.endrikagallery.artworks.xrado.XRadoDagoArtwork</artworkClass>
+            <artist>
+                <name>Rado</name>
+                <countryCode>FR</countryCode>
+                <githubId>rado</githubId>
+                <email>rado@gmail.com</email>
+                <phone>0605793334</phone>
+                <website>http://www.rado.com</website>
+            </artist>
+        </artwork>
+
+    </artworks>
+</endrika_gallery>
