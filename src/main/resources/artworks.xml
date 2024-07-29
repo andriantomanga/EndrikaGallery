@@ -10,7 +10,6 @@
                 <githubId>andriantomanga</githubId>
             </artist>
         </artwork>
-<!-- More artworks here ... -->
 
         <artwork>
             <name>Spiral Dance</name>
@@ -23,6 +22,28 @@
                 <email>nabil.andriantomanga@gmail.com</email>
                 <phone>0605793334</phone>
                 <website>http://www.andriantomanga.com</website>
+            </artist>
+        </artwork>
+
+        <artwork>
+            <name>Composition en Couleurs Primaires</name>
+            <description>Art géométrique moderne inspiré par Mondrian</description>
+            <artworkClass>com.endrikagallery.artworks.andriantomanga.ModernArtArtwork</artworkClass>
+            <artist>
+                <name>Nabil Andriantomanga</name>
+                <countryCode>MG</countryCode>
+                <githubId>andriantomanga</githubId>
+            </artist>
+        </artwork>
+
+        <artwork>
+            <name>Fragments Cubistes</name>
+            <description>Œuvre dynamique avec formes géométriques colorées inspirées du cubisme.</description>
+            <artworkClass>com.endrikagallery.artworks.andriantomanga.CubismArtwork</artworkClass>
+            <artist>
+                <name>Nabil Andriantomanga</name>
+                <countryCode>MG</countryCode>
+                <githubId>andriantomanga</githubId>
             </artist>
         </artwork>
 
