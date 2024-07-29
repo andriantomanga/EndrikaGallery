@@ -23,10 +23,9 @@
 package com.endrikagallery.ui;
 
 import com.endrikagallery.Artwork;
+import com.endrikagallery.utils.StringUtil;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics2D;
+import java.awt.*;
 
 /**
  * @author Nabil Andriantomanga
@@ -57,6 +56,13 @@ public class ArtworkSignature {
 
         if (artist.country().isKnown()) {
             graphics.drawString("Artist from " + artist.country().getName(), x, y + 60);
+        }
+
+        if (StringUtil.isNotEmpty(artist.email())) {
+            graphics.drawString(artist.email(), x, y + 80);
+        }
+        if (StringUtil.isNotEmpty(artist.phone())) {
+            graphics.drawString(artist.phone(), x, y + 100);
         }
     }
 }

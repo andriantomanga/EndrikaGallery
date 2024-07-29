@@ -1,6 +1,12 @@
-# 🎨 Endrika Gallery
+```
+┏┓   ┓  •┓     ┏┓  ┓┓      
+┣ ┏┓┏┫┏┓┓┃┏┏┓  ┃┓┏┓┃┃┏┓┏┓┓┏
+┗┛┛┗┗┻┛ ┗┛┗┗┻  ┗┛┗┻┗┗┗ ┛ ┗┫
+                          ┛
+```
+![Build Status](https://github.com/andriantomanga/EndrikaGallery/actions/workflows/main.yml/badge.svg)
 
-This project allows dev-artists (like you, surely) to express their 2D creativity in a simple and centralized way.
+This project allows dev-artists (like you 👈, surely) to express their 2D creativity in a simple and centralized way.
 
 # 🤝 Contributing
 
@@ -57,9 +63,6 @@ Here is a comprehensive example:
                 <name>Nabil Andriantomanga</name>
                 <countryCode>MG</countryCode>
                 <githubId>andriantomanga</githubId>
-                <email>nabil.andriantomanga@gmail.com</email>
-                <phone>0605793334</phone>
-                <website>http://www.andriantomanga.com</website>
             </artist>
         </artwork>
     </artworks>

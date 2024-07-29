@@ -14,7 +14,7 @@ public class DagoArtwork extends AbstractArtwork {
 
     @Override
     public void expresses(Graphics graphics) {
-        graphics.setColor(Color.BLACK);
+        graphics.setColor(Color.RED);
         int[] xPoints = {
                 377, 380, 368, 352, 331, 330, 305, 253, 189, 160, 163, 140,
                 141, 165, 163, 142, 117, 104, 109, 122, 123, 140, 197, 197,
@@ -27,7 +27,8 @@ public class DagoArtwork extends AbstractArtwork {
                 837, 816, 817, 799, 427, 407, 360, 319, 313, 336, 304, 279,
                 236, 186, 151, 157
         };
-        graphics.drawPolygon(xPoints, yPoints, yPoints.length);
+
+        graphics.fillPolygon(xPoints, yPoints, yPoints.length);
     }
 
 }
