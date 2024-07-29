@@ -100,3 +100,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Example 2 :
 <img src="screenshots/screen2.PNG" alt="Exemple 2" width="600" style="display: block; margin-bottom: 20px;"/>
+
+### Example 3 :
+<img src="screenshots/screen3.PNG" alt="Exemple 3" width="600" style="display: block; margin-bottom: 20px;"/>
+
+~ end ~
