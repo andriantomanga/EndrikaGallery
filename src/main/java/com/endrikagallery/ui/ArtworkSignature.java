@@ -44,7 +44,6 @@ public class ArtworkSignature {
 
     public void sign(Graphics2D graphics, int x, int y) {
         graphics.setColor(Color.BLACK);
-
         graphics.setFont(TITLE_FONT);
         graphics.drawString(currentArtwork.getInfos().name(), x, y);
 

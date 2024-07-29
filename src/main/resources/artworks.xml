@@ -1,6 +1,17 @@
 <endrika_gallery>
     <artworks>
         <artwork>
+            <name>Fragments Cubistes</name>
+            <description>Œuvre dynamique avec formes inspirées du cubisme.</description>
+            <artworkClass>com.endrikagallery.artworks.andriantomanga.CubismArtwork</artworkClass>
+            <artist>
+                <name>Nabil Andriantomanga</name>
+                <countryCode>MG</countryCode>
+                <githubId>andriantomanga</githubId>
+            </artist>
+        </artwork>
+
+        <artwork>
             <name>Ilay Nosy Mena</name>
             <description>Basic red island</description>
             <artworkClass>com.endrikagallery.artworks.dago.DagoArtwork</artworkClass>
@@ -37,9 +48,9 @@
         </artwork>
 
         <artwork>
-            <name>Fragments Cubistes</name>
-            <description>Œuvre dynamique avec formes inspirées du cubisme.</description>
-            <artworkClass>com.endrikagallery.artworks.andriantomanga.CubismArtwork</artworkClass>
+            <name>Circle Constellation</name>
+            <description>Une constellation en cercle.</description>
+            <artworkClass>com.endrikagallery.artworks.andriantomanga.CircleConstellationArtwork</artworkClass>
             <artist>
                 <name>Nabil Andriantomanga</name>
                 <countryCode>MG</countryCode>

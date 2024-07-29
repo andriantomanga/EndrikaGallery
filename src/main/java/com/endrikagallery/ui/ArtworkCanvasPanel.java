@@ -37,7 +37,7 @@ import java.util.List;
  * @since 2024
  */
 public class ArtworkCanvasPanel extends JPanel {
-    private static final int MARGIN = 20;
+    private static final int MARGIN = 10;
     private static final float DEFAULT_STROKE_WIDTH = 3.0f;
 
     private Artwork currentArtwork;
