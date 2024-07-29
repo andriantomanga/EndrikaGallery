@@ -24,49 +24,39 @@ package com.endrikagallery.ui;
 
 import com.endrikagallery.Artwork;
 
-import javax.swing.JPanel;
-import java.awt.BasicStroke;
 import java.awt.Color;
-import java.awt.Graphics;
+import java.awt.Font;
 import java.awt.Graphics2D;
-import java.util.List;
 
 /**
  * @author Nabil Andriantomanga
  * @version 1.0
  * @since 2024
  */
-public class ArtworkCanvasPanel extends JPanel {
-    private static final int MARGIN = 20;
-    private static final float DEFAULT_STROKE_WIDTH = 3.0f;
+public class ArtworkSignature {
+    private static final Font TITLE_FONT = new Font("Arial", Font.BOLD, 14);
+    private static final Font DETAIL_FONT = new Font("Arial", Font.PLAIN, 13);
 
-    private Artwork currentArtwork;
+    private final Artwork currentArtwork;
 
-    public ArtworkCanvasPanel(List<Artwork> artworks) {
-        if (!artworks.isEmpty()) {
-            this.currentArtwork = artworks.get(0);
+    public ArtworkSignature(Artwork currentArtwork) {
+        this.currentArtwork = currentArtwork;
+    }
+
+    public void sign(Graphics2D graphics, int x, int y) {
+        graphics.setColor(Color.BLACK);
+
+        graphics.setFont(TITLE_FONT);
+        graphics.drawString(currentArtwork.getInfos().name(), x, y);
+
+        graphics.setFont(DETAIL_FONT);
+        graphics.drawString(currentArtwork.getInfos().description(), x, y + 20);
+
+        var artist = currentArtwork.getArtistInfos();
+        graphics.drawString(artist.name() + "(https://github.com/" + artist.githubId() + ")", x, y + 40);
+
+        if (artist.country().isKnown()) {
+            graphics.drawString("Artist from " + artist.country().getName(), x, y + 60);
         }
-    }
-
-    public void setCurrentArtwork(Artwork artwork) {
-        this.currentArtwork = artwork;
-        repaint();
-    }
-
-    @Override
-    protected void paintComponent(Graphics graphics) {
-        super.paintComponent(graphics);
-        Graphics2D graphics2d = (Graphics2D) graphics;
-        graphics2d.setStroke(new BasicStroke(DEFAULT_STROKE_WIDTH));
-        paintBackground(graphics2d);
-        if (currentArtwork != null) {
-            currentArtwork.expresses(graphics);
-            new ArtworkSignature(currentArtwork).sign(graphics2d, getWidth() - 400, getHeight() - 200);
-        }
-    }
-
-    private void paintBackground(Graphics2D graphics) {
-        graphics.setColor(Color.WHITE);
-        graphics.fillRect(MARGIN, MARGIN, getWidth() - 2 * MARGIN, getHeight() - 2 * MARGIN);
     }
 }
