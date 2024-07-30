@@ -12,17 +12,6 @@
         </artwork>
 
         <artwork>
-            <name>Ilay Nosy Mena</name>
-            <description>Basic red island</description>
-            <artworkClass>com.endrikagallery.artworks.dago.DagoArtwork</artworkClass>
-            <artist>
-                <name>Nabil Andriantomanga</name>
-                <countryCode>MG</countryCode>
-                <githubId>andriantomanga</githubId>
-            </artist>
-        </artwork>
-
-        <artwork>
             <name>Spiral Dance</name>
             <description>Une sensation de mouvement fluide et artistique ...</description>
             <artworkClass>com.endrikagallery.artworks.andriantomanga.SpiralArtwork</artworkClass>
@@ -51,6 +40,17 @@
             <name>Circle Constellation</name>
             <description>Une constellation en cercle.</description>
             <artworkClass>com.endrikagallery.artworks.andriantomanga.CircleConstellationArtwork</artworkClass>
+            <artist>
+                <name>Nabil Andriantomanga</name>
+                <countryCode>MG</countryCode>
+                <githubId>andriantomanga</githubId>
+            </artist>
+        </artwork>
+
+        <artwork>
+            <name>The Eisenhower Matrix</name>
+            <description>Prioritize your time on what really matters.</description>
+            <artworkClass>com.endrikagallery.artworks.andriantomanga.EisenhowerMatrixArtwork</artworkClass>
             <artist>
                 <name>Nabil Andriantomanga</name>
                 <countryCode>MG</countryCode>

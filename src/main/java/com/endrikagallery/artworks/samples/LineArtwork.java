@@ -1,4 +1,4 @@
-package com.endrikagallery.artworks.dokoda;
+package com.endrikagallery.artworks.samples;
 
 import com.endrikagallery.AbstractArtwork;
 import com.endrikagallery.model.ArtistInfos;
@@ -7,15 +7,14 @@ import com.endrikagallery.model.ArtworkInfos;
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class DokodaArtwork extends AbstractArtwork {
-
-    public DokodaArtwork(ArtworkInfos artworkInfos, ArtistInfos artistInfos) {
+public class LineArtwork extends AbstractArtwork {
+    public LineArtwork(ArtworkInfos artworkInfos, ArtistInfos artistInfos) {
         super(artworkInfos, artistInfos);
     }
 
     @Override
     public void expresses(Graphics graphics) {
-        graphics.setColor(Color.RED);
-        graphics.fillRoundRect(200, 200, 400, 150, 7, 7);
+        graphics.setColor(Color.BLACK);
+        graphics.drawLine(200, 200, 200, 200);
     }
 }
