@@ -4,6 +4,7 @@
 ┗┛┛┗┗┻┛ ┗┛┗┗┻  ┗┛┗┻┗┗┗ ┛ ┗┫
                           ┛
 ```
+![Version](https://img.shields.io/badge/version-v1.0.0-green.svg)
 ![Build Status](https://github.com/andriantomanga/EndrikaGallery/actions/workflows/main.yml/badge.svg)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
 
