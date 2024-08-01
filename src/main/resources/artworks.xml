@@ -58,5 +58,16 @@
             </artist>
         </artwork>
 
+        <artwork>
+            <name>Simplified Mona Lisa</name>
+            <description>Iconic smile captured with basic shapes and colors.</description>
+            <artworkClass>com.endrikagallery.artworks.andriantomanga.SimplifiedMonaLisaArtwork</artworkClass>
+            <artist>
+                <name>Nabil Andriantomanga</name>
+                <countryCode>MG</countryCode>
+                <githubId>andriantomanga</githubId>
+            </artist>
+        </artwork>
+
     </artworks>
 </endrika_gallery>
