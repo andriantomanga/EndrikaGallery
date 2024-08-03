@@ -92,6 +92,9 @@ Here is a comprehensive example:
 After adding your artwork, commit your changes and open a pull request to the main repository. We’ll review and merge
 your contribution.
 
+### 5. An important rule:
+Everything must be drawn programmatically, so no drawImage, for example.
+
 # 🛠️ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 📝
