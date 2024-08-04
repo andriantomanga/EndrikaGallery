@@ -86,6 +86,8 @@ Here is a comprehensive example:
 | `<artist> <phone>`               | The phone number of the artist                 | false    |
 | `<artist> <website>`             | The website of the artist                      | false    |
 
+You can see the exhaustive list of all country codes here:
+[https://github.com/andriantomanga/EndrikaGallery/blob/main/src/main/java/com/endrikagallery/model/Country.java](https://github.com/andriantomanga/EndrikaGallery/blob/main/src/main/java/com/endrikagallery/model/Country.java)
 
 ### 4. Submit a Pull Request
 
