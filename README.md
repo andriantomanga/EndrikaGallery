@@ -111,4 +111,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Example 3 :
 <img src="screenshots/screen3.PNG" alt="Exemple 3" width="600" style="display: block; margin-bottom: 20px;"/>
 
+### Example 4 :
+<img src="screenshots/screen4.PNG" alt="Exemple 4" width="600" style="display: block; margin-bottom: 20px;"/>
+
 ~ end ~

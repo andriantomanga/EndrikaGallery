@@ -69,5 +69,16 @@
             </artist>
         </artwork>
 
+        <artwork>
+            <name>Mario Pixel</name>
+            <description>Pixel art de Mario.</description>
+            <artworkClass>com.endrikagallery.artworks.andriantomanga.MarioPixelArtwork</artworkClass>
+            <artist>
+                <name>Nabil Andriantomanga</name>
+                <countryCode>MG</countryCode>
+                <githubId>andriantomanga</githubId>
+            </artist>
+        </artwork>
+
     </artworks>
 </endrika_gallery>
