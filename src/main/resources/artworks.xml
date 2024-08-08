@@ -80,5 +80,16 @@
             </artist>
         </artwork>
 
+        <artwork>
+            <name>Girl with a Pearl Earring Pixel Art</name>
+            <description>Pixel art of The Girl with a Pearl Earring</description>
+            <artworkClass>com.endrikagallery.artworks.andriantomanga.GirlWithPearlEarringArtwork</artworkClass>
+            <artist>
+                <name>Nabil Andriantomanga</name>
+                <countryCode>MG</countryCode>
+                <githubId>andriantomanga</githubId>
+            </artist>
+        </artwork>
+
     </artworks>
 </endrika_gallery>
