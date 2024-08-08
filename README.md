@@ -103,15 +103,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📸 Screenshots
 ### Example 1 :
+<p>The famous girl with a pearl earring</p>
 <img src="screenshots/screen1.PNG" alt="Exemple 1" width="600" style="display: block; margin-bottom: 20px;"/>
 
 ### Example 2 :
+<p>Art géométrique moderne inspiré par Mondrian.</p>
 <img src="screenshots/screen2.PNG" alt="Exemple 2" width="600" style="display: block; margin-bottom: 20px;"/>
 
 ### Example 3 :
+<p>Une constellation en cercle.</p>
 <img src="screenshots/screen3.PNG" alt="Exemple 3" width="600" style="display: block; margin-bottom: 20px;"/>
 
 ### Example 4 :
+<p>Pixel art of Mario</p>
 <img src="screenshots/screen4.PNG" alt="Exemple 4" width="600" style="display: block; margin-bottom: 20px;"/>
 
 ~ end ~
