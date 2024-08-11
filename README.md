@@ -50,7 +50,7 @@ public class RadoSampleArtwork extends AbstractArtwork {
 ```
 
 ### 3. Manifest Update
-Add a new artwork element to the src/main/resources/artworks.xml file.
+Add a new artwork element to the `src/main/resources/artworks.xml` file.
 Here is a comprehensive example:
 
 ```xml
@@ -95,7 +95,7 @@ After adding your artwork, commit your changes and open a pull request to the ma
 your contribution.
 
 ### 5. An important rule:
-Everything must be drawn programmatically, so no drawImage, for example.
+Everything must be drawn programmatically, so no `drawImage`, for example.
 
 # 🛠️ License
 
