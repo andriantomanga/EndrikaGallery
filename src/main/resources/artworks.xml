@@ -91,5 +91,16 @@
             </artist>
         </artwork>
 
+        <artwork>
+            <name>Smiley</name>
+            <description>Pixel art of common smiley</description>
+            <artworkClass>com.endrikagallery.artworks.andriantomanga.SmileyPixelArtwork</artworkClass>
+            <artist>
+                <name>Nabil Andriantomanga</name>
+                <countryCode>MG</countryCode>
+                <githubId>andriantomanga</githubId>
+            </artist>
+        </artwork>
+
     </artworks>
 </endrika_gallery>
